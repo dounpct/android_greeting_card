@@ -1,4 +1,4 @@
-package com.example.greetingcard
+package com.jiw.greetingcard
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,9 +12,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.greetingcard.ui.theme.GreetingCardTheme
+import com.jiw.greetingcard.ui.theme.GreetingCardTheme
 
 
 class MainActivity : ComponentActivity() {
@@ -25,7 +24,7 @@ class MainActivity : ComponentActivity() {
             GreetingCardTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Jiw!!!! This is first my test mobile app.",
+                        name = "Jiw!!!! This is first my test mobile app.....",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
